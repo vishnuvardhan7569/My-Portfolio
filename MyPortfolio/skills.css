@@ -1,0 +1,80 @@
+body{
+    background-image: url("backskills.jpg");
+    background-size: cover;
+    filter: blur(20%);
+}
+.navlist{
+    text-transform: uppercase;
+    gap:3.5rem;
+    height:15vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:1rem;
+    position:relative;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+    font-weight: 500;
+}
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 70px 90px;
+    margin-left: 120px;
+    font-weight: 500;
+}
+.skills .sub-title h1{
+    padding-top: 20px;
+    font-size: 90px;
+    line-height: 1;
+
+}
+.skills .sub-title span{
+    color: #0ef;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h1 span{
+    color: #0ef;
+}
+.Technical-bars{
+    color: white;
+}
+.radial-bars{
+    color: white;
+}
+.info span{
+    color: #0ef;
+}
+.text{
+    color: #0ef;
+}
+body h1{
+    font-size: 60px;
+}
